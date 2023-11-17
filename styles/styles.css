@@ -1,0 +1,12 @@
+#resourceTable.tr{
+    background-color: green;
+    margin: 25,25,25,100;
+}
+
+tr.evenRow{
+    background-color: lightblue;
+}
+
+tr.oddRow{
+    background-color: lightgray;
+}

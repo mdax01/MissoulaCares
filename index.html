@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script src="scripts/main.js"></script>
+        <script src="scripts/resources.js"></script>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body onload="onPageLoad()">
+        <h3><span id="pageTitle"></span></h3>
+        <table>
+            <tr>
+                <span id="pageDescription"></span>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td> <span>How can we help? </span></td>
+                <td>
+                    <select id="resourceSelect" onchange="updateGrid()">
+
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <table id="resourceTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Website</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody id="resourceTableBody">
+                
+            </tbody>
+        </table>
+    </body>
+</html>
