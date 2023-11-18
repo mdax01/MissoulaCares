@@ -56,7 +56,7 @@ function loadTable(valueArray, initialLoad){
             getResourceTypes(element);
         }
 
-        nameCell.innerHTML = "<a href='display.html?entry="+ element.id +"' target='_blank'>" +element.name+ "</a>";
+        nameCell.innerHTML = "<h2><a href='display.html?entry="+ element.id +"' target='_blank'>" +element.name+ "</a></h2>";
         descriptionCell.innerHTML = element.description;
     }
 
