@@ -137,7 +137,7 @@ var entries = [
         website:' ',
         address:'1325 Wyoming St, Missoula, MT',
         phone:'406-532-9800',
-        description:'Outpatient Services, transitional housing program',
+        description:'Outpatient Services, transitional  housing program',
         longDescription:'Outpatient Services, transitional housing program',
         keywords: ['recovery']
     },
