@@ -68,7 +68,7 @@ var entries = [
         phone:'406-542-5240',
         description:'Help getting IDs, Rental and work application assistance, life skills and addiction services',
         longDescription:'Help getting IDs, Rental and work application assistance, life skills and addiction services',
-        keywords: ['Housing','Life skills','Addiction']
+        keywords: ['Housing','Life skills','Recovery']
     },
     {   
         id: 8,
@@ -128,7 +128,7 @@ var entries = [
         phone:'406-532-9900',
         description:'Inpatient and outpatient addiction recovery services',
         longDescription:'Inpatient and outpatient addiction recovery services',
-        keywords: ['Addiction']
+        keywords: ['Recovery']
     },
     {   
         id: 14,
@@ -138,7 +138,7 @@ var entries = [
         phone:'406-532-9800',
         description:'Outpatient Services, transitional housing program',
         longDescription:'Outpatient Services, transitional housing program',
-        keywords: ['Addiction']
+        keywords: ['Recovery']
     },
     {   
         id: 15,
