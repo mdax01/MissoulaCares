@@ -60,10 +60,7 @@ function loadTable(valueArray, initialLoad){
         }
 
         nameCell.innerHTML = "<a href='display.html?entry="+ element.id +"' target='_blank'>" +element.name+ "</a>";;
-        websiteCell.innerHTML = "<a href='" + element.website +"' target='_blank'>" + element.website + "</a>";
-        addressCell.innerHTML = element.address;
-        phoneCell.innerHTML = element.phone;
-        descriptionCell.innerHTML = element.description;
+        descriptionCell.innerHTML = element.longDescription;
     }
 
     return new_tbody;
