@@ -1,4 +1,5 @@
 //Resources added 11/17/2023 by Michael David
+//Case sensitivity MATTERS in the keywords don't fuck with it
 var entries = [
     {
         id: 1,
