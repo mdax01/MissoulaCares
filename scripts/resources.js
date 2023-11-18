@@ -59,8 +59,7 @@ var entries = [
         description:'The MST currently responds with law enforcement to behavioral health-related 911 calls. The response units consist of a licensed mental health clinician and an emergency medical technician (EMT). The MST also has a Case Facilitator who follows up with clients to provide resource navigation.',
         longDescription:'The MST currently responds with law enforcement to behavioral health-related 911 calls. The response units consist of a licensed mental health clinician and an emergency medical technician (EMT). The MST also has a Case Facilitator who follows up with clients to provide resource navigation.',
         keywords: ['healthcare']
-    }
-    ,
+    },
     {   
         id: 7,
         name:'Hope Rescue Mission',
@@ -70,8 +69,7 @@ var entries = [
         description:'Help getting IDs, Rental and work application assistance, life skills and addiction services',
         longDescription:'Help getting IDs, Rental and work application assistance, life skills and addiction services',
         keywords: ['housing','life skills']
-    }
-    ,
+    },
     {   
         id: 8,
         name:'Housing Advocate Network',
@@ -81,8 +79,7 @@ var entries = [
         description:'Missoula Works and the Housing Advocate Network host open office hours for those seeking employment and/or housing assistance Mondays - Thursdays from 10 am-12 pm at the MIC office.MIC is located downstairs at Atonement Lutheran Church',
         longDescription:'Missoula Works and the Housing Advocate Network host open office hours for those seeking employment and/or housing assistance Mondays - Thursdays from 10 am-12 pm at the MIC office.MIC is located downstairs at Atonement Lutheran Church',
         keywords: ['housing','employment']
-    }
-    ,
+    },
     {   
         id: 9,
         name:'Partnership Health Center',
@@ -92,8 +89,7 @@ var entries = [
         description:'Offers free of cost or low-cost care based on individual circumstances',
         longDescription:'Offers free of cost or low-cost care based on individual circumstances',
         keywords: ['healthcare']
-    }
-    ,
+    },
     {   
         id: 10,
         name:'Family Promise',
@@ -103,8 +99,7 @@ var entries = [
         description:'Family Shelter',
         longDescription:'Family Shelter',
         keywords: ['shelter']
-    }
-    ,
+    },
     {   
         id: 11,
         name:'Union Gospel Mission',
@@ -114,8 +109,7 @@ var entries = [
         description:'Women and Children Shelter, Warming center during winter',
         longDescription:'Women and Children Shelter, Warming center during winter',
         keywords: ['shelter']
-    }
-    ,
+    },
     {   
         id: 12,
         name:'YMCA Pathways Program',
@@ -125,8 +119,7 @@ var entries = [
         description:'Shelter for those fleeing domestic violence',
         longDescription:'Shelter for those fleeing domestic violence',
         keywords: ['shelter']
-    }
-    ,
+    },
     {   
         id: 13,
         name:'Missoula Recovery Center',
@@ -136,8 +129,7 @@ var entries = [
         description:'Inpatient and outpatient addiction recovery services',
         longDescription:'Inpatient and outpatient addiction recovery services',
         keywords: ['recovery services']
-    }
-    ,
+    },
     {   
         id: 14,
         name:'Western MT Addiction Services',
@@ -147,8 +139,7 @@ var entries = [
         description:'Outpatient Services, transitional housing program',
         longDescription:'Outpatient Services, transitional housing program',
         keywords: ['recovery services']
-    }
-    ,
+    },
     {   
         id: 15,
         name:'Human Resource Council',
@@ -158,8 +149,7 @@ var entries = [
         description:'Housing assistance, energy assistance',
         longDescription:'Housing assistance, energy assistance',
         keywords: ['housing']
-    }
-    ,
+    },
     {   
         id: 16,
         name:'Missoula Housing Authority',
@@ -169,8 +159,7 @@ var entries = [
         description:'Low-income housing, section 8, housing vouchers',
         longDescription:'Low-income housing, section 8, housing vouchers',
         keywords: ['housing']
-    }
-    ,
+    },
     {   
         id: 17,
         name:'Homeword',
@@ -180,8 +169,7 @@ var entries = [
         description:'Offers free of cost or low-cost care based on individual circumstances',
         longDescription:'Offers free of cost or low-cost care based on individual circumstances',
         keywords: ['healthcare']
-    }
-    ,
+    },
     {   
         id: 18,
         name:'Partnership Health Center',
@@ -191,8 +179,7 @@ var entries = [
         description:'Offers free of cost or low-cost care based on individual circumstances',
         longDescription:'Offers free of cost or low-cost care based on individual circumstances',
         keywords: ['healthcare']
-    }
-    ,
+    },
     {   
         id: 19,
         name:'Partnership Health Center',
@@ -202,8 +189,7 @@ var entries = [
         description:'Offers free of cost or low-cost care based on individual circumstances',
         longDescription:'Offers free of cost or low-cost care based on individual circumstances',
         keywords: ['healthcare']
-    }
-    ,
+    },
     {   
         id: 20,
         name:'Partnership Health Center',
@@ -214,6 +200,4 @@ var entries = [
         longDescription:'Offers free of cost or low-cost care based on individual circumstances',
         keywords: ['healthcare']
     }
-
-
 ];
