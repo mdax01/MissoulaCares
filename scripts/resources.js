@@ -168,7 +168,7 @@ var entries = [
         phone:'406-258-4789',
         description:'Low-income properties, classes, counseling',
         longDescription:'Low-income properties, classes, counseling',
-        keywords: ['Housing', 'Education']
+        keywords: ['Housing','Education']
     },
     {   
         id: 18,
