@@ -1,4 +1,4 @@
-//This is where you would add resources
+//Resources added 11/17/2023 by Michael David
 var entries = [
     {
         id: 1,
@@ -6,8 +6,8 @@ var entries = [
         website:'https://thepoverellocenter.org/',
         address:'1110 West Broadway Street Missoula MT 59802',
         phone:'406-728-1809',
-        shortDescription:'Providing Beds, Showers and Lockers, see the front desk for details.',
-        longDescription:'LONGProviding Beds, Showers and Lockers, see the front desk for details.',
+        description:'Providing Beds, Showers and Lockers, see the front desk for details.',
+        longDescription:'The Poverello Center provides bunks, showers and meals to those in need.',
         keywords: ['shelter','food']
     },
     {   
@@ -17,6 +17,7 @@ var entries = [
         address:'',
         phone:'406-493-7955',
         description:'The HOT program works to identify barriers to housing/services for Missoulas chronically homeless individuals, while simultaneously supporting and educating downtown businesses and community members.',
+        longDescription:'The HOT program works to identify barriers to housing/services for Missoulas chronically homeless individuals, while simultaneously supporting and educating downtown businesses and community members.',
         keywords: ['food','clothing']
     },
     {   
