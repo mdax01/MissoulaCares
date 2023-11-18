@@ -166,38 +166,38 @@ var entries = [
         website:' ',
         address:'1535 Liberty Ln number 5, Missoula, MT',
         phone:'406-258-4789',
-        description:'Offers free of cost or low-cost care based on individual circumstances',
-        longDescription:'Offers free of cost or low-cost care based on individual circumstances',
-        keywords: ['Healthcare']
+        description:'Low-income properties, classes, counseling',
+        longDescription:'Low-income properties, classes, counseling',
+        keywords: ['Housing, Education']
     },
     {   
         id: 18,
-        name:'Partnership Health Center',
-        website:'https://www.partnershiphealthcenter.com',
-        address:'401 Railroad St W, Missoula, MT 59802',
-        phone:'406-258-4789',
-        description:'Offers free of cost or low-cost care based on individual circumstances',
-        longDescription:'Offers free of cost or low-cost care based on individual circumstances',
-        keywords: ['Healthcare']
+        name:'Volunteers of America',
+        website:' ',
+        address:'1001 SW Higgins Ave Ste 206, Missoula, MT',
+        phone:'',
+        description:'Assist in housing veterans and families of veterans',
+        longDescription:'Assist in housing veterans and families of veterans',
+        keywords: ['Housing']
     },
     {   
         id: 19,
-        name:'Partnership Health Center',
-        website:'https://www.partnershiphealthcenter.com',
-        address:'401 Railroad St W, Missoula, MT 59802',
-        phone:'406-258-4789',
-        description:'Offers free of cost or low-cost care based on individual circumstances',
-        longDescription:'Offers free of cost or low-cost care based on individual circumstances',
-        keywords: ['Healthcare']
+        name:'Mountain Home',
+        website:' ',
+        address:'2606 South Ave, Missoula, MT',
+        phone:'406-541-4663',
+        description:'Housing for young mothers and children',
+        longDescription:'Housing for young mothers and children',
+        keywords: ['Housing']
     },
     {   
         id: 20,
-        name:'Partnership Health Center',
-        website:'https://www.partnershiphealthcenter.com',
-        address:'401 Railroad St W, Missoula, MT 59802',
-        phone:'406-258-4789',
-        description:'Offers free of cost or low-cost care based on individual circumstances',
-        longDescription:'Offers free of cost or low-cost care based on individual circumstances',
-        keywords: ['Healthcare']
+        name:'YMCA',
+        website:' ',
+        address:'1130 W Broadway St., Missoula, MT',
+        phone:'406-543-6691',
+        description:'Assist in housing families and those fleeing abuse',
+        longDescription:'Assist in housing families and those fleeing abuse',
+        keywords: ['Housing']
     }
 ];
