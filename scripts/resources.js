@@ -16,8 +16,8 @@ var entries = [
         website:'',
         address:'',
         phone:'406-493-7955',
-        description:'The HOT program works to identify barriers to housing/services for Missoulas chronically homeless individuals, while simultaneously supporting and educating downtown businesses and community members.',
-        longDescription:'The HOT program works to identify barriers to housing/services for Missoulas chronically homeless individuals, while simultaneously supporting and educating downtown businesses and community members.',
+        description:'The HOT program works to identify barriers to housing services for Missoulas chronically homeless individuals, while simultaneously supporting and educating downtown businesses and community members.',
+        longDescription:'The HOT program works to identify barriers to housing services for Missoulas chronically homeless individuals, while simultaneously supporting and educating downtown businesses and community members.',
         keywords: ['food','clothing']
     },
     {   
