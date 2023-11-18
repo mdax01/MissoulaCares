@@ -50,9 +50,6 @@ function loadTable(valueArray, initialLoad){
         var row = new_tbody.insertRow(index);
         row.setAttribute("class", index%2==0?"evenRow":"oddRow");
         var nameCell = row.insertCell(0);
-        var websiteCell = row.insertCell(1);
-        var addressCell = row.insertCell(2);
-        var phoneCell = row.insertCell(3);
         var descriptionCell = row.insertCell(4);
 
         if(initialLoad){
