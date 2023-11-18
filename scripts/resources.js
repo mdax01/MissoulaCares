@@ -6,7 +6,8 @@ var entries = [
         website:'https://thepoverellocenter.org/',
         address:'1110 West Broadway Street Missoula MT 59802',
         phone:'406-728-1809',
-        description:'Providing Beds, Showers and Lockers, see the front desk for details.',
+        shortDescription:'Providing Beds, Showers and Lockers, see the front desk for details.',
+        longDescription:'LONGProviding Beds, Showers and Lockers, see the front desk for details.',
         keywords: ['shelter','food']
     },
     {   

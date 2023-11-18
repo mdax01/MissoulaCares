@@ -12,8 +12,8 @@ function onPageLoad(){
     website.innerHTML = "<a href='" + entry.website +"' target='_blank'>" + entry.website + "</a>";
     var address = document.getElementById("address");
     address.textContent = entry.address;
-    var description = document.getElementById("description");
-    description.textContent = entry.description;
+    var longDescription = document.getElementById("longDescription");
+    longDescription.textContent = entry.longDescription;
     var phone = document.getElementById("phone");
     phone.textContent = entry.phone;
 }
