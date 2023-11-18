@@ -135,7 +135,7 @@ var entries = [
         phone:'406-532-9900',
         description:'Inpatient and outpatient addiction recovery services',
         longDescription:'Inpatient and outpatient addiction recovery services',
-        keywords: ['addiction']
+        keywords: ['recovery services']
     }
     ,
     {   
@@ -146,7 +146,7 @@ var entries = [
         phone:'406-532-9800',
         description:'Outpatient Services, transitional housing program',
         longDescription:'Outpatient Services, transitional housing program',
-        keywords: ['addiction']
+        keywords: ['recovery services']
     }
     ,
     {   
