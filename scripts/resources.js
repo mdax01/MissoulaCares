@@ -27,6 +27,7 @@ var entries = [
         address:'1720 Wyoming Street, Missoula MT 59801',
         phone:'406-549-0543',
         description:'Missoula Food Bank provides food to all in need without qualification. They can also assist in signing up for SNAP or Medicaid by appointment.',
+        longDescription:'Missoula Food Bank provides food to all in need without qualification. They can also assist in signing up for SNAP or Medicaid by appointment.',
         keywords: ['food']
     },
     {   
