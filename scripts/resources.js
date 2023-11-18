@@ -8,7 +8,7 @@ var entries = [
         phone:'406-728-1809',
         description:'Providing Beds, Showers and Lockers, see the front desk for details.',
         longDescription:'The Poverello Center provides bunks, showers and meals to those in need.',
-        keywords: ['shelter','food']
+        keywords: ['Shelter','Food']
     },
     {   
         id: 2,
@@ -18,7 +18,7 @@ var entries = [
         phone:'406-493-7955',
         description:'The HOT program works to identify barriers to housing services for Missoulas chronically homeless individuals, while simultaneously supporting and educating downtown businesses and community members.',
         longDescription:'The HOT program works to identify barriers to housing services for Missoulas chronically homeless individuals, while simultaneously supporting and educating downtown businesses and community members.',
-        keywords: ['food','clothing']
+        keywords: ['Food','Clothing']
     },
     {   
         id: 3,
@@ -28,7 +28,7 @@ var entries = [
         phone:'406-549-0543',
         description:'Missoula Food Bank provides food to all in need without qualification. They can also assist in signing up for SNAP or Medicaid by appointment.',
         longDescription:'Missoula Food Bank provides food to all in need without qualification. They can also assist in signing up for SNAP or Medicaid by appointment.',
-        keywords: ['food']
+        keywords: ['Food']
     },
     {   
         id: 4,
@@ -38,7 +38,7 @@ var entries = [
         phone:'406-721-6884',
         description:'The Love Missoula Pantry provides free basic clothing and food items to families and individuals in need. It supplies donations to residents who lack the means or resources to purchase them on their own.',
         longDescription:'The Love Missoula Pantry provides free basic clothing and food items to families and individuals in need. It supplies donations to residents who lack the means or resources to purchase them on their own.',
-        keywords: ['food']
+        keywords: ['Food']
     },
     {   
         id: 5,
@@ -48,7 +48,7 @@ var entries = [
         phone:'406-543-4770',
         description:'HIV, HepC and STI Testing. Syringe Services, Housing Assistance and Healthcare referral',
         longDescription:'HIV, HepC and STI Testing. Syringe Services, Housing Assistance and Healthcare referral',
-        keywords: ['housing','healthcare']
+        keywords: ['Housing','Healthcare']
     },
     {   
         id: 6,
@@ -58,7 +58,7 @@ var entries = [
         phone:'406-552-6210',
         description:'The MST currently responds with law enforcement to behavioral health-related 911 calls. The response units consist of a licensed mental health clinician and an emergency medical technician (EMT). The MST also has a Case Facilitator who follows up with clients to provide resource navigation.',
         longDescription:'The MST currently responds with law enforcement to behavioral health-related 911 calls. The response units consist of a licensed mental health clinician and an emergency medical technician (EMT). The MST also has a Case Facilitator who follows up with clients to provide resource navigation.',
-        keywords: ['healthcare']
+        keywords: ['Healthcare']
     },
     {   
         id: 7,
@@ -68,7 +68,7 @@ var entries = [
         phone:'406-542-5240',
         description:'Help getting IDs, Rental and work application assistance, life skills and addiction services',
         longDescription:'Help getting IDs, Rental and work application assistance, life skills and addiction services',
-        keywords: ['housing','life skills']
+        keywords: ['Housing','Life skills']
     },
     {   
         id: 8,
@@ -78,7 +78,7 @@ var entries = [
         phone:'406-207-8228',
         description:'Missoula Works and the Housing Advocate Network host open office hours for those seeking employment and/or housing assistance Mondays - Thursdays from 10 am-12 pm at the MIC office.MIC is located downstairs at Atonement Lutheran Church',
         longDescription:'Missoula Works and the Housing Advocate Network host open office hours for those seeking employment and/or housing assistance Mondays - Thursdays from 10 am-12 pm at the MIC office.MIC is located downstairs at Atonement Lutheran Church',
-        keywords: ['housing','employment']
+        keywords: ['Housing','Employment']
     },
     {   
         id: 9,
@@ -88,7 +88,7 @@ var entries = [
         phone:'406-258-4789',
         description:'Offers free of cost or low-cost care based on individual circumstances',
         longDescription:'Offers free of cost or low-cost care based on individual circumstances',
-        keywords: ['healthcare']
+        keywords: ['Healthcare']
     },
     {   
         id: 10,
@@ -98,7 +98,7 @@ var entries = [
         phone:'406-207-8228',
         description:'Family Shelter',
         longDescription:'Family Shelter',
-        keywords: ['shelter']
+        keywords: ['Shelter']
     },
     {   
         id: 11,
@@ -108,7 +108,7 @@ var entries = [
         phone:'406-926-6477',
         description:'Women and Children Shelter, Warming center during winter',
         longDescription:'Women and Children Shelter, Warming center during winter',
-        keywords: ['shelter']
+        keywords: ['Shelter']
     },
     {   
         id: 12,
@@ -118,7 +118,7 @@ var entries = [
         phone:'406-543-6691',
         description:'Shelter for those fleeing domestic violence',
         longDescription:'Shelter for those fleeing domestic violence',
-        keywords: ['shelter']
+        keywords: ['Shelter']
     },
     {   
         id: 13,
@@ -128,7 +128,7 @@ var entries = [
         phone:'406-532-9900',
         description:'Inpatient and outpatient addiction recovery services',
         longDescription:'Inpatient and outpatient addiction recovery services',
-        keywords: ['recovery services']
+        keywords: ['Recovery services']
     },
     {   
         id: 14,
@@ -138,7 +138,7 @@ var entries = [
         phone:'406-532-9800',
         description:'Outpatient Services, transitional housing program',
         longDescription:'Outpatient Services, transitional housing program',
-        keywords: ['recovery services']
+        keywords: ['Recovery services']
     },
     {   
         id: 15,
@@ -148,7 +148,7 @@ var entries = [
         phone:'406-728-3710',
         description:'Housing assistance, energy assistance',
         longDescription:'Housing assistance, energy assistance',
-        keywords: ['housing']
+        keywords: ['Housing']
     },
     {   
         id: 16,
@@ -158,7 +158,7 @@ var entries = [
         phone:'406-549-4113',
         description:'Low-income housing, section 8, housing vouchers',
         longDescription:'Low-income housing, section 8, housing vouchers',
-        keywords: ['housing']
+        keywords: ['Housing']
     },
     {   
         id: 17,
@@ -168,7 +168,7 @@ var entries = [
         phone:'406-258-4789',
         description:'Offers free of cost or low-cost care based on individual circumstances',
         longDescription:'Offers free of cost or low-cost care based on individual circumstances',
-        keywords: ['healthcare']
+        keywords: ['Healthcare']
     },
     {   
         id: 18,
@@ -178,7 +178,7 @@ var entries = [
         phone:'406-258-4789',
         description:'Offers free of cost or low-cost care based on individual circumstances',
         longDescription:'Offers free of cost or low-cost care based on individual circumstances',
-        keywords: ['healthcare']
+        keywords: ['Healthcare']
     },
     {   
         id: 19,
@@ -188,7 +188,7 @@ var entries = [
         phone:'406-258-4789',
         description:'Offers free of cost or low-cost care based on individual circumstances',
         longDescription:'Offers free of cost or low-cost care based on individual circumstances',
-        keywords: ['healthcare']
+        keywords: ['Healthcare']
     },
     {   
         id: 20,
@@ -198,6 +198,6 @@ var entries = [
         phone:'406-258-4789',
         description:'Offers free of cost or low-cost care based on individual circumstances',
         longDescription:'Offers free of cost or low-cost care based on individual circumstances',
-        keywords: ['healthcare']
+        keywords: ['Healthcare']
     }
 ];
