@@ -69,7 +69,7 @@ var entries = [
         phone:'406-542-5240',
         description:'Help getting IDs, Rental and work application assistance, life skills and addiction services',
         longDescription:'Help getting IDs, Rental and work application assistance, life skills and addiction services',
-        keywords: ['housing','life skills','recovery']
+        keywords: ['housing','life skills','addiction']
     },
     {   
         id: 8,
