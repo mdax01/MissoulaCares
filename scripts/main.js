@@ -50,7 +50,7 @@ function loadTable(valueArray, initialLoad){
         var row = new_tbody.insertRow(index);
         row.setAttribute("class", index%2==0?"evenRow":"oddRow");
         var nameCell = row.insertCell(0);
-        var descriptionCell = row.insertCell(4);
+        var descriptionCell = row.insertCell(1);
 
         if(initialLoad){
             getResourceTypes(element);
