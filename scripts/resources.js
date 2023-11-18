@@ -135,7 +135,7 @@ var entries = [
         phone:'406-532-9900',
         description:'Inpatient and outpatient addiction recovery services',
         longDescription:'Inpatient and outpatient addiction recovery services',
-        keywords: ['addiction treatment']
+        keywords: ['addiction']
     }
     ,
     {   
@@ -146,7 +146,7 @@ var entries = [
         phone:'406-532-9800',
         description:'Outpatient Services, transitional housing program',
         longDescription:'Outpatient Services, transitional housing program',
-        keywords: ['addiction treatment']
+        keywords: ['addiction']
     }
     ,
     {   
@@ -175,7 +175,7 @@ var entries = [
         id: 17,
         name:'Homeword',
         website:' ',
-        address:'1535 Liberty Ln #5, Missoula, MT',
+        address:'1535 Liberty Ln number 5, Missoula, MT',
         phone:'406-258-4789',
         description:'Offers free of cost or low-cost care based on individual circumstances',
         longDescription:'Offers free of cost or low-cost care based on individual circumstances',
