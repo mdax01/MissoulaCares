@@ -1,0 +1,19 @@
+#resourceTable.tr{
+    background-color: green;
+    margin: 25,25,25,100;
+}
+
+tr.evenRow{
+    background-color: lightblue;
+}
+
+tr.oddRow{
+    background-color: lightgray;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body {
+      background: #FFF;
+      width: 100%;
+    }
+  }
