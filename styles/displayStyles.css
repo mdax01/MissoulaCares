@@ -11,9 +11,36 @@ tr.oddRow{
     background-color: lightgray;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    body {
-      background: #FFF;
-      width: 100%;
+@media all and (max-width: 500px){
+
+    .test-table .table {
+            width: 85%
+
     }
-  }
+
+    .table  thead {
+        display: none;
+        }
+
+    .test-table .table tr {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+
+        }
+
+    .test-table table th {
+        content: attr(col);
+        font-weight: bold;
+        padding-right: 20px;
+        width: 40vw;
+        display:inline-block;
+        vertical-align: top
+
+        }
+    .test-table table td {
+        word-break : break-all;
+        width: 40vw;
+        text-align: center;
+        }
+}
