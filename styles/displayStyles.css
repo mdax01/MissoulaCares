@@ -3,22 +3,14 @@
     margin: 25,25,25,100;
 }
 
+h1{
+    color:green;
+}
+
 tr.evenRow{
     background-color: lightblue;
 }
 
 tr.oddRow{
     background-color: lightgray;
-}
-
-@media only screen and (max-device-width: 480px) {
-    /* write smartphone styles here */
-}
-
-@media only screen and (max-device-width: 768px) {
-    /* tablets in portrait mode */
-}
-
-@media only screen and (max-device-width: 1024px) {
-    /* tablets in landscape mode and smaller/older monitors */
 }
