@@ -11,12 +11,8 @@ tr.oddRow{
     background-color: lightgray;
 }
 
-@media all and (max-width: 500px){
+@media all and (max-width: 300px){
 
-    .test-table .table {
-            width: 85%
-
-    }
 
     .table  thead {
         display: none;
