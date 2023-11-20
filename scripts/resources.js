@@ -200,5 +200,55 @@ var entries = [
         description:'Assist in housing families and those fleeing abuse',
         longDescription:'Assist in housing families and those fleeing abuse',
         keywords: ['housing']
+    },
+    {   
+        id: 21,
+        name:'Missoula Job Service',
+        website:' ',
+        address:'539 53rd St W, Missoula, MT',
+        phone:'406-728-7060',
+        description:'Employement assistance and training',
+        longDescription:'Employment assistance and training',
+        keywords: ['employment']
+    },
+    {   
+        id: 22,
+        name:'Missoula Works',
+        website:' ',
+        address:'525 Brooks St., Missoula, MT',
+        phone:'406-526-3400',
+        description:'Employment assistance',
+        longDescription:'Employment assistance',
+        keywords: ['employment']
+    },
+    {   
+        id: 23,
+        name:'Vocational Rehabilitatoin',
+        website:' ',
+        address:'2675 Palmer St. Suite A., Missoula, MT',
+        phone:'406-329-5400',
+        description:'Assist those with disabilities in finding employment',
+        longDescription:'Assist those with disabilities in finding employment',
+        keywords: ['employment']
+    },
+    {   
+        id: 24,
+        name:'Human Resource Council',
+        website:' ',
+        address:'1801 S Higgins, Missoula, MT',
+        phone:'406-728-3710',
+        description:'Workforce innovation and opportunity act youth program',
+        longDescription:'Workforce innovation and opportunity act youth program',
+        keywords: ['employment']
+    },
+    {   
+        id: 25,
+        name:'Office of Public Assistance',
+        website:' ',
+        address:'2677 Palmer St., Missoula, MT',
+        phone:'406-329-1200',
+        description:'Medicaid',
+        longDescription:'Meddicaid',
+        keywords: ['healthcare']
     }
 ];
