@@ -154,7 +154,7 @@ var entries = [
     {   
         id: 16,
         name:'Missoula Housing Authority',
-        website:' ',
+        website:'https://www.missoulahousing.org/',
         address:'1235 34th St, Missoula, MT',
         phone:'406-549-4113',
         description:'Low-income housing, section 8, housing vouchers',
@@ -174,7 +174,7 @@ var entries = [
     {   
         id: 18,
         name:'Volunteers of America',
-        website:' ',
+        website:'',
         address:'1001 SW Higgins Ave Ste 206, Missoula, MT',
         phone:'',
         description:'Assist in housing veterans and families of veterans',
@@ -184,19 +184,19 @@ var entries = [
     {   
         id: 19,
         name:'Mountain Home',
-        website:' ',
+        website:'https://mountainhomemt.org/',
         address:'2606 South Ave, Missoula, MT',
         phone:'406-541-4663',
         description:'Housing for young mothers and children',
-        longDescription:'Housing for young mothers and children',
+        longDescription:'Mountain Home is a 501c3 nonprofit organization that provides shelter for young mothers who need a place to live, and a network of support as they create safe, stable, and nurturing homes of their own.',
         keywords: ['housing']
     },
     {   
         id: 20,
-        name:'YMCA',
-        website:' ',
+        name:'YWCA',
+        website:'https://www.ywcamissoula.org/services/',
         address:'1130 W Broadway St., Missoula, MT',
-        phone:'406-543-6691',
+        phone:'800-483-7858',
         description:'Assist in housing families and those fleeing abuse',
         longDescription:'Assist in housing families and those fleeing abuse',
         keywords: ['housing']
@@ -204,7 +204,7 @@ var entries = [
     {   
         id: 21,
         name:'Missoula Job Service',
-        website:' ',
+        website:'https://web.missoulachamber.com/Employment-Agencies/Missoula-Job-Service-228',
         address:'539 53rd St W, Missoula, MT',
         phone:'406-728-7060',
         description:'Employement assistance and training',
@@ -214,7 +214,7 @@ var entries = [
     {   
         id: 22,
         name:'Missoula Works',
-        website:' ',
+        website:'https://missoulaworks.com/',
         address:'525 Brooks St., Missoula, MT',
         phone:'406-526-3400',
         description:'Employment assistance',
@@ -224,7 +224,7 @@ var entries = [
     {   
         id: 23,
         name:'Vocational Rehabilitatoin',
-        website:' ',
+        website:'https://dphhs.mt.gov/detd/vocrehab/',
         address:'2675 Palmer St. Suite A., Missoula, MT',
         phone:'406-329-5400',
         description:'Assist those with disabilities in finding employment',
@@ -234,7 +234,7 @@ var entries = [
     {   
         id: 24,
         name:'Human Resource Council',
-        website:' ',
+        website:'https://www.humanresourcecouncil.org/',
         address:'1801 S Higgins, Missoula, MT',
         phone:'406-728-3710',
         description:'Workforce innovation and opportunity act youth program',
@@ -244,11 +244,88 @@ var entries = [
     {   
         id: 25,
         name:'Office of Public Assistance',
-        website:' ',
+        website:'https://mfbn.org/resource/office-of-public-assistance-missoula/',
         address:'2677 Palmer St., Missoula, MT',
         phone:'406-329-1200',
         description:'Medicaid',
         longDescription:'Meddicaid',
         keywords: ['healthcare']
+    },
+    {   
+        id: 26,
+        name:'Poverello Center Pantry',
+        website:'https://thepoverellocenter.org/programs/',
+        address:'1110 W Broadway St., Missoula, MT',
+        phone:'406-728-1809',
+        description:'Food pantry open Mon, Wed and Fri',
+        longDescription:' Our Food Pantry provides shelf-stable and fresh foods on Monday, Wednesday, and Friday from 5:30pm - 7pm',
+        keywords: ['food']
+    },
+    {   
+        id: 27,
+        name:'The Salvation Army',
+        website:'https://missoula.salvationarmy.org/missoula_corps/',
+        address:'355 South Russel St W, Missoula, MT',
+        phone:'406-549-0710',
+        description:'Food pantry open weekdays',
+        longDescription:'Food pantry open weekdays',
+        keywords: ['food']
+    },
+    {   
+        id: 28,
+        name:'Planned Parenthood',
+        website:'https://www.plannedparenthood.org/health-center/montana/missoula/59802/planned-parenthood-missoula-2440-90790',
+        address:'219 E. Main St., Missoula, MT',
+        phone:'406-728-5490',
+        description:'Family planning, general health',
+        longDescription:'Family planning, general health',
+        keywords: ['healthcare']
+    },
+    {   
+        id: 29,
+        name:'Self Help Law Center',
+        website:'https://www.missoulacounty.us/government/civil-criminal-justice/district-court/divorce-parenting/missoula-self-help-law-center',
+        address:'200 West Broadway,Room 271, Missoula, MT',
+        phone:'406-258-3428',
+        description:'Assist with legal information and resources',
+        longDescription:'Assist with legal information and resources',
+        keywords: ['legal services']
+    },
+    {   
+        id: 30,
+        name:'MT Legal Services Assocation',
+        website:'https://www.mtlsa.org/',
+        address:'1525 Liberty Lane, Suite 110, Missoula, MT',
+        phone:'406-543-8343',
+        description:'Legal information, advice and other services',
+        longDescription:'Legal information, advice and other services',
+        keywords: ['legal services']
+    },
+    {   
+        id: 32,
+        name:'WIC Program',
+        website:'https://www.missoulacounty.us/government/health/health-department/healthy-people-healthy-families/wic',
+        address:'301 West Alder, Missoula, MT',
+        phone:'406-258-4740',
+        description:'Supplemental food and nutritional assistance',
+        longDescription:'Supplemental food and nutritional assistance',
+        keywords: ['healthcare']
+    },
+    {   
+        id: 31,
+        name:'SNAP Program',
+        website:'https://www.dphhs.mt.gov/hcsd/snap',
+        address:'2677 Palmer St., Missoula, MT',
+        phone:'406-329-1200',
+        description:'Supplemental food and nutrtional assistance',
+        longDescription:'Supplemental food and nutritional assistance',
+        keywords: ['healthcare']
     }
+
+
+
+
+
+
+
 ];
