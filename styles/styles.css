@@ -17,3 +17,9 @@ tr.oddRow{
       width: 100%;
     }
   }
+
+  a {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
