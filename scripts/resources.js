@@ -324,13 +324,13 @@ var entries = [
     },
     {   
         id: 33,
-        name:'SNAP Program',
-        website:'https://www.dphhs.mt.gov/hcsd/snap',
-        address:'2677 Palmer St., Missoula, MT',
-        phone:'406-329-1200',
-        description:'Supplemental food and nutrtional assistance',
-        longDescription:'Supplemental food and nutritional assistance',
-        keywords: ['healthcare']
+        name:'Child Care Resources',
+        website:'https://www.childcareresources.org/',
+        address:'2409 Dearborne Ave, Suite L, Missoula, MT',
+        phone:'406-728-6446',
+        description:'Assist in finding quality child care',
+        longDescription:'Child Care Resources <br>Helps people find child care <br> Helps people pay for child care <br> Trains the early child care workforce ',
+        keywords: ['child care']
     }
     ,
     {   
