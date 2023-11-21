@@ -8,7 +8,7 @@ tr.evenRow{
 }
 
 tr.oddRow{
-    background-color: whitesmoke;
+    background-color: lightgrey;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
