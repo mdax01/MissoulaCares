@@ -95,11 +95,11 @@ var entries = [
     {   
         id: 10,
         name:'Family Promise',
-        website:' ',
+        website:'https://www.familypromisemissoula.org/',
         address:'202 Brooks St., Missoula, MT',
         phone:'406-207-8228',
-        description:'Family Shelter',
-        longDescription:'Family Shelter',
+        description:'Our mission is to help families experiencing homelessness and low-income families achieve sustainable independence through a community-based response.',
+        longDescription:'Family Promise helps local communities coordinate their compassion to address the root causes of family homelessness. We address the issue holistically, providing prevention services before families reach crisis, shelter and case management when they become homeless, and stabilization programs once they have secured housing to ensure they remain independent. We tap existing local resources to empower families towards economic stability. Families come to us in crisis; we help them rebuild their lives with new skills and ongoing support.',
         keywords: ['shelter']
     },
     {   
