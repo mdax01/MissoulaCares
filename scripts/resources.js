@@ -1,5 +1,6 @@
 //Resources added 11/17/2023 by Michael David
-//Case sensitivity MATTERS in the keywords don't fuck with it
+//Case sensitivity matters in the keywords 
+//Each resources MUST have a unique id
 var entries = [
     {
         id: 1,
@@ -302,7 +303,7 @@ var entries = [
         keywords: ['legal services']
     },
     {   
-        id: 32,
+        id: 31,
         name:'WIC Program',
         website:'https://www.missoulacounty.us/government/health/health-department/healthy-people-healthy-families/wic',
         address:'301 West Alder, Missoula, MT',
@@ -312,7 +313,17 @@ var entries = [
         keywords: ['healthcare']
     },
     {   
-        id: 31,
+        id: 32,
+        name:'SNAP Program',
+        website:'https://www.dphhs.mt.gov/hcsd/snap',
+        address:'2677 Palmer St., Missoula, MT',
+        phone:'406-329-1200',
+        description:'Supplemental food and nutrtional assistance',
+        longDescription:'Supplemental food and nutritional assistance',
+        keywords: ['healthcare']
+    },
+    {   
+        id: 33,
         name:'SNAP Program',
         website:'https://www.dphhs.mt.gov/hcsd/snap',
         address:'2677 Palmer St., Missoula, MT',
@@ -321,11 +332,78 @@ var entries = [
         longDescription:'Supplemental food and nutritional assistance',
         keywords: ['healthcare']
     }
-
-
-
-
-
-
+    ,
+    {   
+        id: 34,
+        name:'Alberton Clothing Company',
+        website:'https://www.facebook.com/albertonclothingcompany/',
+        address:'PO Box , Missoula, MT',
+        phone:'406-880-5013',
+        description:'Free clothing give aways, typically at River Edge Resort, Check facebook page for dates',
+        longDescription:'Warm food and clothing at community events. Typically held at River Edge Resort at 168 I-90 Frontage Road, Missoula MT. Free winter clothign for all ages and sizes provided by Alberton Clothing company',
+        keywords: ['clothing']
+    }
+    ,
+    {   
+        id: 35,
+        name:'Heart CLothes Closet',
+        website:'https://www.facebook.com/lovemissoulapantry/',
+        address:'1001 Cleveland St., Missoula, MT',
+        phone:'406-721-6884',
+        description:'Heart church offers clothing giveaways, see their facebook for details',
+        longDescription:'Heart church offers clothing giveaways, see their facebook for details',
+        keywords: ['clothing']
+    }
+    ,
+    {   
+        id: 36,
+        name:'Missoula Parents - Swap/Trade Group',
+        website:'https://www.facebook.com/groups/1547020778807159/',
+        address:'2677 Palmer St., Missoula, MT',
+        phone:'406-329-1200',
+        description:'Facebook group connecting parents for free clothing toys and more',
+        longDescription:'Hey parents! A space for parents to offer up clothes, toys, and so much more. Everything is trade or free only. Please answer the group rules to be approved.',
+        keywords: ['clothing']
+    },
+    {   
+        id: 37,
+        name:'River of Life Clothing Closet',
+        website:'https://www.rolmt.com/clothing-closet',
+        address:'4007 Mt-HYW 200, Missoula, MT',
+        phone:'844-447-6568',
+        description:'River of Life gives out free clothing the 1st and 3rd Saturday of the month',
+        longDescription:'Free clothes available in our storefront that is open Starting November 1st 2023 we will be moving to the 1st and 3rd Saturday of the month 12:30 - 2:30 pm',
+        keywords: ['clothing']
+    },
+    {   
+        id: 38,
+        name:'River of Hope Food Bank',
+        website:'http://riverofhopemt.com',
+        address:'3862 Alc Way, Stevensville, MT',
+        phone:'844-447-6568',
+        description:'Food bank is open every Saturday from 12-3',
+        longDescription:'Our Food Bank is open every Saturday from 12:00 - 3:00pm.  We ask everyone to stay in their vehicles and follow the directions of the parking lot attendants',
+        keywords: ['food']
+    },
+    {   
+        id: 39,
+        name:'Missoula Works Employment Support',
+        website:'https://missoulaworks.com/',
+        address:'2205 34th St, Missoula, MT 59801, Missoula, MT',
+        phone:'406-926-3400',
+        description:'Employment assistance at Atonement Lutheran Church',
+        longDescription:'Missoula Works and the Housing Advocate Network host open office hours for those seeking employment and/or housing assistance Mondays–Thursdays from 10 am-12 pm at the MIC office. MIC is located downstairs at Atonement Lutheran Church., ',
+        keywords: ['employment']
+    },
+    {   
+        id: 40,
+        name:'Human Resources Council',
+        website:'https://www.humanresourcecouncil.org/',
+        address:'1801 S Higgins Ave., Missoula, MT',
+        phone:'406-728-3710',
+        description:'Housing Assistance and Energy Assistance',
+        longDescription:'Missoula Office:  Paperwork will not be reviewed at the time of submission, drop-off only. Drop boxes can be found outside, in the entry way and main lobby (during office hours Please call HRC with any questions or assistance with paperwork at 728-3710.',
+        keywords: ['housing, financial assistance']
+    }
 
 ];
