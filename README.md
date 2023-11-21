@@ -1,7 +1,7 @@
 # MissoulaCares
 Mobile friendly web page to list resources for the homeless population in Missoula MT <br>
-Site is designed FOR homeless clients who typically use mobile phones for accessing information <br>
-Emphasis is on simple, fast return of information homeless clients can use to get assistance <br>
+Site is designed for homeless clients who typically use mobile phones when accessing information <br>
+Emphasis is on simple, fast return of information clients can use to get assistance <br>
 
 Goals
 - Update main page to list Resources in alphabetical order
