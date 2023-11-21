@@ -403,7 +403,7 @@ var entries = [
         phone:'406-728-3710',
         description:'Housing Assistance and Energy Assistance',
         longDescription:'Missoula Office:  Paperwork will not be reviewed at the time of submission, drop-off only. Drop boxes can be found outside, in the entry way and main lobby (during office hours Please call HRC with any questions or assistance with paperwork at 728-3710.',
-        keywords: ['housing, financial assistance']
+        keywords: ['housing','financial assistance']
     }
 
 ];
