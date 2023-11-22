@@ -110,7 +110,7 @@ var entries = [
         phone:'406-542-5240',
         description:'Women and Children Shelter, Warming center during winter',
         longDescription:'Women and Children Shelter, Warming center during winter Monday, Wednesday, and Friday 8 AM-11 AM. Friday night dinner 4:30 PM-6 PM. Warming Shelter Open 11 PM-6 AM any day of the week below 11 degrees.',
-        keywords: ['shelter']
+        keywords: ['shelter','children']
     },
     {   
         id: 12,
@@ -150,7 +150,7 @@ var entries = [
         phone:'406-728-5437',
         description:'Parenting, Trauma 101 and Incarceration Support Classes',
         longDescription:'The Parenting Place is a community-based, non-profit organization whose mission is the prevention of child abuse and neglect through strengthening families. Our goals are to help families develop healthy parent-child relationships, to improve the futures of our children and ensure healthy families',
-        keywords: ['education']
+        keywords: ['education','children']
     },
     {   
         id: 16,
@@ -190,7 +190,7 @@ var entries = [
         phone:'406-541-4663',
         description:'Housing for young mothers and children',
         longDescription:'Mountain Home is a 501c3 nonprofit organization that provides shelter for young mothers who need a place to live, and a network of support as they create safe, stable, and nurturing homes of their own.',
-        keywords: ['housing']
+        keywords: ['housing','children']
     },
     {   
         id: 20,
@@ -330,7 +330,7 @@ var entries = [
         phone:'406-728-6446',
         description:'Assist in finding quality child care',
         longDescription:'Child Care Resources Helps people find child care Helps people pay for child care Trains the early child care workforce ',
-        keywords: ['child care']
+        keywords: ['children']
     }
     ,
     {   
@@ -403,7 +403,7 @@ var entries = [
         phone:'888-706-1535',
         description:'Temporary assistance for needy families',
         longDescription:'TANF cash assistance is a program providing temporary financial assistance to needy families. The receipt of TANF cash assistance is limited to 60 months in an adults lifetime. temporary financial assistance may be provided to the following families and individuals with  Minor Children, Specified relatives with whom the children are living, The minor childrens blood-related/adoptive siblings with whom the children are living, Pregnant women in their last trimester who have no other eligible children and Refugees with minor dependent children.',
-        keywords: ['financial assistance']
+        keywords: ['financial assistance','children']
     },
     {   
         id: 41,
@@ -443,6 +443,66 @@ var entries = [
         phone:'406-762-5460',
         description:'Hotline for assistance with substance abuse and mental health',
         longDescription:'Child Start Inc., Head Start seeks to provide opportunities for education and growth for staff, children, families, and the community in a caring and nurturing environment. Based in the Western region of Montana, CSI provides comprehensive childcare and educational services, including those that address mental, social, and emotional development of children from 3 to 5 years of age.',
-        keywords: ['childcare','education']
+        keywords: ['children','education']
+    },
+    {   
+        id: 45,
+        name:'Crime Victim Advocate Program',
+        website:'https://www.missoulacounty.us/government/civil-criminal-justice/crime-victim-advocate-program',
+        address:'317 Woody St., Missoula, MT',
+        phone:'406-258-3830',
+        description:'Free and confidential assistance to victims of relationship violence, sexual assault and stalking.',
+        longDescription:'The CVA program provides free and confidential assistance to victims of relationship violence, sexual assault, and stalking by offering advocacy and resource information in civil and criminal matters.',
+        keywords: ['legal services','life skills']
+    },
+    {   
+        id: 46,
+        name:'Community Dispute Resolution Center',
+        website:'https://www.cdrcmissoula.org/',
+        address:'1535 Liberty Lane, Missoula, MT',
+        phone:'406-543-1157',
+        description:'Access to alternative dispute resolution services.',
+        longDescription:'The CDRC of Missoula County provides access and availability to alternative dispute resolution services to all Montanans, regardless of income. We facilitate the process of citizens helping citizens resolve conflict through mediation trainings and by providing high-quality services to relieve the court system and bridge the justice gap.',
+        keywords: ['legal services']
+    },
+    {   
+        id: 47,
+        name:'Blind and Low Vision Services',
+        website:'https://dphhs.mt.gov/detd/blvs/blvs-vr/index',
+        address:'2675 Palmer, Suite A., Missoula, MT',
+        phone:'888-279-7528',
+        description:'The vocational rehabilitation program provides services to assist individuals with visual disabilities or blindness find or maintain employment.The types of services we provide are based on what you need to get and keep a job.',
+        longDescription:'The vocational rehabilitation program provides services to assist individuals with visual disabilities or blindness find or maintain employment.The types of services we provide are based on what you need to get and keep a job.',
+        keywords: ['employment','healthcare']
+    },
+    {   
+        id: 48,
+        name:'Accessible Spaces',
+        website:'http://www.accessiblespace.org/montana-accessible-housing',
+        address:'2675 Palmer, Suite A., Missoula, MT',
+        phone:'800-466-7722',
+        description:'To provide housing with care for persons with physical disabilities and brain injuries, as well as seniors and veterans. This mission is accomplished through the development, management and ownership of accessible, afProfordable housing, supportive care, customized living and rehabilitation services.',
+        longDescription:'To provide housing with care for persons with physical disabilities and brain injuries, as well as seniors and veterans. This mission is accomplished through the development, management and ownership of accessible, afProfordable housing, supportive care, customized living and rehabilitation services.',
+        keywords: ['housing']
+    },
+    {   
+        id: 49,
+        name:'Alcoholics Anonymous (Area 40) AA',
+        website:'https://www.aa-montana.org/district-sites/dist81/index.php',
+        address:'See website for specific location information',
+        phone:'833-800-8553',
+        description:'Fellowship of people working to solve their problem with alcohol and help others recover',
+        longDescription:'ALCOHOLICS ANONYMOUS is a fellowship of people who share their experience, strength and hope with each other that they may solve their common problem and help others to recover from alcoholism. The only requirement for membership is a desire to stop drinking. There are no dues or fees for A.A. membership; we are self-supporting through our own contributions. A.A. is not allied with any sect, denomination, politics, organization or institution; does not wish to engage in any controversy; neither endorses nor opposes any causes. Our primary purpose is to stay sober and help other alcoholics to achieve sobriety.',
+        keywords: ['recovery']
+    },
+    {   
+        id: 50,
+        name:'CASA of Missoula',
+        website:'https://www.casamissoula.org/',
+        address:'PO Box 7433, Missoula, MT',
+        phone:'406-542-1208',
+        description:'The vocational rehabilitation program provides services to assist individuals with visual disabilities or blindness find or maintain employment.The types of services we provide are based on what you need to get and keep a job.',
+        longDescription:'CASA of Missoula provides independent, trained advocates for the best interests of children within the judicial system who are at substantial risk or have experienced abuse or neglect. We provide consistent, long-term advocacy until every child resides in a safe, permanent home.',
+        keywords: ['legal services','children']
     }
 ];
