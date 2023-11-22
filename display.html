@@ -4,8 +4,6 @@
 <head>
     <script src="scripts/main.js"></script>
     <script src="scripts/resources.js"></script>
-    <script src="scripts/selected.js"></script>
-
     <link rel="stylesheet" href="styles/displayStyles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
 </head>
@@ -69,20 +67,29 @@
         }
 
         function setPageDetailsForDisplay(entry) {
-            // Set other page details using the entry
-            var longDescriptionElement = document.getElementById("longDescription");
-            var websiteElement = document.getElementById("website");
-            var addressElement = document.getElementById("address");
-            var phoneElement = document.getElementById("phone");
+    // Set other page details using the entry
+    var longDescriptionElement = document.getElementById("longDescription");
+    var websiteElement = document.getElementById("website");
+    var addressElement = document.getElementById("address");
+    var phoneElement = document.getElementById("phone");
 
-            longDescriptionElement.textContent = entry.longDescription;
-            websiteElement.textContent = entry.website;
-            addressElement.textContent = entry.address;
-            phoneElement.appendChild(createPhoneLink(entry.phone));
-            
-            document.title = entry.name + " - " + pageTitle;
-            document.getElementById("selectedResource").textContent = entry.name;
-        }
+    longDescriptionElement.textContent = entry.longDescription;
+    
+    // Create a hyperlink for the website
+    var websiteLink = document.createElement('a');
+    websiteLink.href = entry.website;
+    websiteLink.textContent = entry.website;
+    websiteLink.target = '_blank'; // Open in a new tab
+    websiteElement.innerHTML = ''; // Clear existing content
+    websiteElement.appendChild(websiteLink);
+
+    addressElement.textContent = entry.address;
+    phoneElement.appendChild(createPhoneLink(entry.phone));
+
+    document.title = entry.name + " - " + pageTitle;
+    document.getElementById("selectedResource").textContent = entry.name;
+}
+
     </script>
 </body>
 </html>
