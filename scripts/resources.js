@@ -429,7 +429,7 @@ var entries = [
         id: 43,
         name:'Substance Abuse and Mental Health Hotline',
         website:'https://www.samhsa.gov/',
-        address:'',
+        address:' ',
         phone:'800-662-4357',
         description:'Hotline for assistance with substance abuse and mental health',
         longDescription:'The Substance Abuse and Mental Health Services Administration (SAMHSA) is the agency within the U.S. Department of Health and Human Services (HHS) that leads public health efforts to advance the behavioral health of the nation and to improve the lives of individuals living with mental and substance use disorders, and their families. Mission: SAMHSA’s mission is to lead public health and service delivery efforts that promote mental health, prevent substance misuse, and provide treatments and supports to foster recovery while ensuring equitable access and better outcomes.',
