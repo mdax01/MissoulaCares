@@ -427,7 +427,7 @@ var entries = [
     },
     {   
         id: 43,
-        name:'Substance abuse and mental health hotline',
+        name:'Substance Abuse and Mental Health Hotline',
         website:'https://www.samhsa.gov/',
         address:'',
         phone:'800-662-4357',
