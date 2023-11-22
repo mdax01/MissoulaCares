@@ -144,13 +144,13 @@ var entries = [
     },
     {   
         id: 15,
-        name:'Human Resource Council',
-        website:' ',
-        address:'1801 S Higgins Ave, Missoula, MT',
-        phone:'406-728-3710',
-        description:'Housing assistance, energy assistance',
-        longDescription:'Housing assistance, energy assistance',
-        keywords: ['housing']
+        name:'Parenting Place',
+        website:'https://www.parentingplace.net/',
+        address:'1644 S. 8th St W, Missoula, MT',
+        phone:'406-728-5437',
+        description:'Parenting, Trauma 101 and Incarceration Support Classes',
+        longDescription:'The Parenting Place is a community-based, non-profit organization whose mission is the prevention of child abuse and neglect through strengthening families. Our goals are to help families develop healthy parent-child relationships, to improve the futures of our children and ensure healthy families',
+        keywords: ['education']
     },
     {   
         id: 16,
@@ -397,12 +397,12 @@ var entries = [
     },
     {   
         id: 40,
-        name:'Human Resources Council',
-        website:'https://www.humanresourcecouncil.org/',
+        name:'TANF',
+        website:'https://www.dphhs.mt.gov/hcsd/tanf',
         address:'1801 S Higgins Ave., Missoula, MT',
-        phone:'406-728-3710',
-        description:'Housing Assistance and Energy Assistance',
-        longDescription:'Missoula Office:  Paperwork will not be reviewed at the time of submission, drop-off only. Drop boxes can be found outside, in the entry way and main lobby (during office hours Please call HRC with any questions or assistance with paperwork at 728-3710.',
-        keywords: ['housing','financial assistance']
+        phone:'888-706-1535',
+        description:'Temporary assistance for needy families',
+        longDescription:'TANF cash assistance is a program providing temporary financial assistance to needy families. The receipt of TANF cash assistance is limited to 60 months in an adults lifetime. temporary financial assistance may be provided to the following families and individuals with  Minor Children, Specified relatives with whom the children are living, The minor childrens blood-related/adoptive siblings with whom the children are living, Pregnant women in their last trimester who have no other eligible children and Refugees with minor dependent children.',
+        keywords: ['financial assistance']
     }
 ];
