@@ -1,3 +1,5 @@
+// JavaScript (resources.js)
+
 var pageTitle = "Missoula Resources";
 var pageDescription = "We care about you!";
 var resourceTypes = ['anything'];
@@ -55,7 +57,7 @@ function loadTable(valueArray, initialLoad) {
         nameCell.innerHTML = "<h3><a href='display.html?entry=" + element.id + "' target='_blank'>" + element.name + "</a></h3>";
         descriptionCell.innerHTML = element.description;
 
-        // Add a phone link to the row
+     
       
     }
 
