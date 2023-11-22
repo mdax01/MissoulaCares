@@ -1,54 +1,88 @@
+<!-- display.html -->
+
 <html>
-    <head>
-        <script src="scripts/resources.js"></script>
-        <script src="scripts/selected.js"></script>
-        <link rel="stylesheet" href="styles/displayStyles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-    </head>
-    <body onload="onPageLoad()">
-        <h1><span id="selectedResource"></span></h1>
+<head>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/resources.js"></script>
+    <script src="scripts/selected.js"></script>
 
-        <table>
-            <tr>
-                <td style="vertical-align:top">
-                    <b>Description:</b>
-                        <br>
+    <link rel="stylesheet" href="styles/displayStyles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body onload="onDisplayPageLoad()">
+    <h1><span id="selectedResource"></span></h1>
 
-                    <span id="longDescription"></span>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <b>Website:
-                     <br>
-                <span id="website"></span>
-                    
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <b>Phone:</b>
-                        <br>
-                        <span id="phone"></span>                   
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <b>Address:</b>
+    <table>
+        <tr>
+            <td style="vertical-align:top">
+                <b>Description:</b>
                 <br>
-                    <span id="address"></span>
-                </td>
-            </tr>  
-            <tr>
-                <td>
-                </td>
-            </tr>        
-            <tr>
-                <td>
-                    <a href="./index.html" class="button">Back to Resource List</a>
+                <span id="longDescription"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Website:</b>
+                <br>
+                <span id="website"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Phone:</b>
+                <br>
+                <span id="phone"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Address:</b>
+                <br>
+                <span id="address"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="./index.html" class="button">Back to Resource List</a>
+            </td>
+        </tr>
+    </table>
+    <script>
+        function onDisplayPageLoad() {
+            // Retrieve parameters from the URL
+            var urlParams = new URLSearchParams(window.location.search);
+            var entryId = urlParams.get('entry');
 
-                </td>
-            </tr>       
-        </table>
-    </body>
+            // Find the entry with the given ID
+            var entry = entries.find(function (element) {
+                return element.id == entryId;
+            });
+
+            if (entry) {
+                // Set page details using the entry
+                setPageDetailsForDisplay(entry);
+            }
+        }
+
+        function setPageDetailsForDisplay(entry) {
+            // Set other page details using the entry
+            var longDescriptionElement = document.getElementById("longDescription");
+            var websiteElement = document.getElementById("website");
+            var addressElement = document.getElementById("address");
+            var phoneElement = document.getElementById("phone");
+
+            longDescriptionElement.textContent = entry.longDescription;
+            websiteElement.textContent = entry.website;
+            addressElement.textContent = entry.address;
+            phoneElement.appendChild(createPhoneLink(entry.phone));
+            
+            document.title = entry.name + " - " + pageTitle;
+            document.getElementById("selectedResource").textContent = entry.name;
+        }
+    </script>
+</body>
 </html>
