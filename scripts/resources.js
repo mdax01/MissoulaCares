@@ -56,7 +56,7 @@ var entries = [
         id: 6,
         name:'Mobile Support Team',
         website:'https://www.ci.missoula.mt.us/2842/Mobile-Support-Team',
-        address:' ',
+        address:'625 E. Pine St., Missoula MT 59808',
         phone:'406-552-6210',
         description:'The MST currently responds with law enforcement to behavioral health-related 911 calls. The response units consist of a licensed mental health clinician and an emergency medical technician (EMT). The MST also has a Case Facilitator who follows up with clients to provide resource navigation.',
         longDescription:'The MST currently responds with law enforcement to behavioral health-related 911 calls. The response units consist of a licensed mental health clinician and an emergency medical technician (EMT). The MST also has a Case Facilitator who follows up with clients to provide resource navigation.',
@@ -105,17 +105,17 @@ var entries = [
     {   
         id: 11,
         name:'Union Gospel Mission',
-        website:' ',
+        website:'https://mfbn.org/resource/union-gospel-mission-of-missoula/',
         address:'506 B Toole Ave, Missoula, MT',
-        phone:'406-926-6477',
+        phone:'406-542-5240',
         description:'Women and Children Shelter, Warming center during winter',
-        longDescription:'Women and Children Shelter, Warming center during winter',
+        longDescription:'Women and Children Shelter, Warming center during winter Monday, Wednesday, and Friday 8 AM-11 AM. Friday night dinner 4:30 PM-6 PM. Warming Shelter Open 11 PM-6 AM any day of the week below 11 degrees.',
         keywords: ['shelter']
     },
     {   
         id: 12,
-        name:'YMCA Pathways Program',
-        website:' ',
+        name:'YWCA Pathways Program',
+        website:'https://www.ywcamissoula.org/services/domestic-sexual-violence/',
         address:'1130 W Broadway, Missoula, MT',
         phone:'406-543-6691',
         description:'Shelter for those fleeing domestic violence',
@@ -125,7 +125,7 @@ var entries = [
     {   
         id: 13,
         name:'Missoula Recovery Center',
-        website:' ',
+        website:'https://www.wmmhc.org/recoverycenter',
         address:'1201 Wyoming St, Missoula, MT',
         phone:'406-532-9900',
         description:'Inpatient and outpatient addiction recovery services',
@@ -135,7 +135,7 @@ var entries = [
     {   
         id: 14,
         name:'Western MT Addiction Services',
-        website:' ',
+        website:'https://www.healthcaremontana.org/Western_Montana_Addiction_Services-Missoula-MT/',
         address:'1325 Wyoming St, Missoula, MT',
         phone:'406-532-9800',
         description:'Outpatient Services, transitional  housing program',
@@ -346,7 +346,7 @@ var entries = [
     ,
     {   
         id: 35,
-        name:'Heart CLothes Closet',
+        name:'Heart Clothes Closet',
         website:'https://www.facebook.com/lovemissoulapantry/',
         address:'1001 Cleveland St., Missoula, MT',
         phone:'406-721-6884',
@@ -404,5 +404,35 @@ var entries = [
         description:'Temporary assistance for needy families',
         longDescription:'TANF cash assistance is a program providing temporary financial assistance to needy families. The receipt of TANF cash assistance is limited to 60 months in an adults lifetime. temporary financial assistance may be provided to the following families and individuals with  Minor Children, Specified relatives with whom the children are living, The minor childrens blood-related/adoptive siblings with whom the children are living, Pregnant women in their last trimester who have no other eligible children and Refugees with minor dependent children.',
         keywords: ['financial assistance']
+    },
+    {   
+        id: 41,
+        name:'Suicide Hep Line',
+        website:'https://988lifeline.org/',
+        address:' ',
+        phone:'800-273-8255',
+        description:'Suicide Help Line',
+        longDescription:'We can all help prevent suicide. The 988 Lifeline provides 24/7, free and confidential support for people in distress, prevention and crisis resources for you or your loved ones, and best practices for professionals in the United States.',
+        keywords: ['healthcare']
+    },
+    {   
+        id: 42,
+        name:'Montana Poison Control',
+        website:'https://www.mtpoisoncenter.org/',
+        address:' ',
+        phone:'800-222-1222',
+        description:'For advice after contact with poison call 1-800-222-1222',
+        longDescription:'Montana poison control for assistance with information and guidance after coming in contact with poison',
+        keywords: ['healthcare']
+    },
+    {   
+        id: 43,
+        name:'Substance abuse and mental health hotline',
+        website:'https://www.samhsa.gov/',
+        address:'',
+        phone:'800-662-4357',
+        description:'Hotline for assistance with substance abuse and mental health',
+        longDescription:'The Substance Abuse and Mental Health Services Administration (SAMHSA) is the agency within the U.S. Department of Health and Human Services (HHS) that leads public health efforts to advance the behavioral health of the nation and to improve the lives of individuals living with mental and substance use disorders, and their families. Mission: SAMHSA’s mission is to lead public health and service delivery efforts that promote mental health, prevent substance misuse, and provide treatments and supports to foster recovery while ensuring equitable access and better outcomes.',
+        keywords: ['healthcare']
     }
 ];
