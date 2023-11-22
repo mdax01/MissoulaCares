@@ -329,17 +329,17 @@ var entries = [
         address:'2409 Dearborne Ave, Suite L, Missoula, MT',
         phone:'406-728-6446',
         description:'Assist in finding quality child care',
-        longDescription:'Child Care Resources <br>Helps people find child care <br> Helps people pay for child care <br> Trains the early child care workforce ',
+        longDescription:'Child Care Resources Helps people find child care Helps people pay for child care Trains the early child care workforce ',
         keywords: ['child care']
     }
     ,
     {   
         id: 34,
         name:'Alberton Clothing Company',
-        website:'https://www.facebook.com/albertonclothingcompany/',
+        website:'https://www.facebook.com/albertonclothingcompany',
         address:'PO Box , Missoula, MT',
         phone:'406-880-5013',
-        description:'Free clothing give aways, typically at River Edge Resort, Check facebook page for dates',
+        description:'Free clothing give aways typically at River Edge Resort Check facebook page for dates',
         longDescription:'Warm food and clothing at community events. Typically held at River Edge Resort at 168 I-90 Frontage Road, Missoula MT. Free winter clothign for all ages and sizes provided by Alberton Clothing company',
         keywords: ['clothing']
     }
@@ -405,5 +405,4 @@ var entries = [
         longDescription:'Missoula Office:  Paperwork will not be reviewed at the time of submission, drop-off only. Drop boxes can be found outside, in the entry way and main lobby (during office hours Please call HRC with any questions or assistance with paperwork at 728-3710.',
         keywords: ['housing','financial assistance']
     }
-
 ];
