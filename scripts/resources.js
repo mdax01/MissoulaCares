@@ -504,5 +504,55 @@ var entries = [
         description:'The vocational rehabilitation program provides services to assist individuals with visual disabilities or blindness find or maintain employment.The types of services we provide are based on what you need to get and keep a job.',
         longDescription:'CASA of Missoula provides independent, trained advocates for the best interests of children within the judicial system who are at substantial risk or have experienced abuse or neglect. We provide consistent, long-term advocacy until every child resides in a safe, permanent home.',
         keywords: ['legal services','children']
+    },
+    {   
+        id: 51,
+        name:'WORD',
+        website:'https://www.guidestar.org/profile/81-0362732',
+        address:'2405 Mcintosh Loop, Missoula, MT',
+        phone:'406-543-3550',
+        description:'WORD creates opportunities, programs and policies that inspire and support womens development leadership and choice for the benefit of the entire community.',
+        longDescription:'WORD operates 5 main programs. Family BASICS provides housing counseling, family advocacy, school-liaison services, family strengthening, support and parent training to the families of homeless students. Futures is a family support and prevention program offering career readiness and parent education to pregnant and parenting teens & young adults. Family Resource Centers work to strengthen learning environments by helping parents, community members and educators create partnerships that support learning, literacy and leadershiPLEIDES, and other support across the state for families and schools. Mentors in Violence Prevention is a training offered to high schools and community groups. It teaches a unique way to help students of both genders to learn how to appropriatley intervene in any situation where they feel that sexual harrassment or discrimination is occuring against themselves or anyone else.',
+        keywords: ['education']
+    },
+    {   
+        id: 52,
+        name:'Meals on Wheels',
+        website:'https://missoulaagingservices.org/get-help/food/meals-on-wheels.html',
+        address:'337 Stephens Ave, Missoula, MT',
+        phone:'406-728-7682',
+        description:'The Missoula Aging Services Meals on Wheels program offers in-home delivery of hot meals five days a week in most areas',
+        longDescription:'Meals on Wheels provides homebound older adults who are unable to shop or cook for themselves a healthy meal, which empowers them to live safely and independently in their own homes. Meals are delivered by friendly volunteer drivers who also provide a smile and a daily safety check',
+        keywords: ['food','elderly']
+    },
+    {   
+        id: 53,
+        name:'Missoula Health Department',
+        website:'https://www.missoulacounty.us/government/health/health-department',
+        address:'301 West Alder, Missoula, MT',
+        phone:'406-258-4770',
+        description:'The Missoula City-County Health Department\'s mission is to build conditions that support the health of people, environments, and communities. Open Mon, Tues, Thur, Friday from 9-11:30 and 1-4:30 and Wendesday from 10-11:30 and 1-4:30',
+        longDescription:'Offers maternal and child care services, including prenatal classes, home visits and breastfeeding support. Services offered at the out patient clinic for adults and children include immunications and pregnancy testing. Nutrition services including WIC, EatSmart and CATCH are also available. Open Mon, Tues, Thur, Friday from 9-11:30 and 1-4:30 and Wendesday from 10-11:30 and 1-4:30',
+        keywords: ['healthcare','children']
+    },
+    {   
+        id: 54,
+        name:'Missoula Urban Indian Health Center',
+        website:'https://www.allnations.health/',
+        address:'830 West Central, Missoula, MT',
+        phone:'406-542-1208',
+        description:'All Nations draws from a diverse skill set using an interdisciplinary team led approach to implement a comprehensive suite of healthcare services. We are working towards instituting trauma-informed practices and policies in order to achieve holistic wellness for the Missoula Native community.',
+        longDescription:'All Nations draws from a diverse skill set using an interdisciplinary team led approach to implement a comprehensive suite of healthcare services. We are working towards instituting trauma-informed practices and policies in order to achieve holistic wellness for the Missoula Native community.',
+        keywords: ['healthcare','recovery']
+    },
+    {   
+        id: 55,
+        name:'Missoula Public Library',
+        website:'https://www.missoulapubliclibrary.org/',
+        address:'455 E. Main St., Missoula, MT',
+        phone:'406-721-2665',
+        description:'Missoula County is vibrant, creative, and healthy. MPL gives compassionate, inclusive service to all and is the first place everyone goes to learn, engage, innovate, and have fun.',
+        longDescription:'Missoula County is vibrant, creative, and healthy. MPL gives compassionate, inclusive service to all and is the first place everyone goes to learn, engage, innovate, and have fun.',
+        keywords: ['education','life skills']
     }
 ];
