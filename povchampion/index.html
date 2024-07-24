@@ -11,81 +11,39 @@
     <table>
         <tr>
             <td style="vertical-align:top">
-                Welcome to the POV Champion Resource List!
+                <H1> Welcome to the POV Champion Resource List! </H1>
             </td>
         </tr>
         <tr>
             <td>
-                <b>Website:</b>
-                <br>
-                <span id="website"></span>
+                <img src="https://www.mmwarchitects.com/wp-content/uploads/2016/03/011.jpg" alt="">
             </td>
         </tr>
         <tr>
             <td>
-                <b>Phone:</b>
-                <br>
-                <span id="phone"></span>
+                Opioid overdose symptoms and procedures
+                https://harmreduction.org/issues/overdose-prevention/overview/overdose-basics/responding-to-opioid-overdose/
+                
+                http://www.bcehs.ca/health-info/public-health/responding-to-an-overdose/what-to-do-for-a-suspected-overdose
             </td>
         </tr>
         <tr>
             <td>
-                <b>Address:</b>
-                <br>
-                <span id="address"></span>
+                Dr. Heather Ashton and Benzodiazepine recovery treatment.
+                Background info on Dr. Heather Ashton
+                https://www.nytimes.com/2020/01/03/science/dr-heather-ashton-dead.html
             </td>
         </tr>
         <tr>
             <td>
+                Ashton Benzo recovery schedule for physicians, charts around page 39 are very illuminative regarding long timelines; 2 years is not a long detox timeline for benzos
+https://www.benzoinfo.com/wp-content/uploads/2022/07/Ashton-Manual.pdf
             </td>
         </tr>
         <tr>
-            <td>
-                <a href="./index.html" class="button">Back to Resource List</a>
-            </td>
+      
         </tr>
     </table>
-    <script>
-        function onDisplayPageLoad() {
-            // Retrieve parameters from the URL
-            var urlParams = new URLSearchParams(window.location.search);
-            var entryId = urlParams.get('entry');
-
-            // Find the entry with the given ID
-            var entry = entries.find(function (element) {
-                return element.id == entryId;
-            });
-
-            if (entry) {
-                // Set page details using the entry
-                setPageDetailsForDisplay(entry);
-            }
-        }
-
-        function setPageDetailsForDisplay(entry) {
-    // Set other page details using the entry
-    var longDescriptionElement = document.getElementById("longDescription");
-    var websiteElement = document.getElementById("website");
-    var addressElement = document.getElementById("address");
-    var phoneElement = document.getElementById("phone");
-
-    longDescriptionElement.textContent = entry.longDescription;
-    
-    // Create a hyperlink for the website
-    var websiteLink = document.createElement('a');
-    websiteLink.href = entry.website;
-    websiteLink.textContent = entry.website;
-    websiteLink.target = '_blank'; // Open in a new tab
-    websiteElement.innerHTML = ''; // Clear existing content
-    websiteElement.appendChild(websiteLink);
-
-    addressElement.textContent = entry.address;
-    phoneElement.appendChild(createPhoneLink(entry.phone));
-
-    document.title = entry.name + " - " + pageTitle;
-    document.getElementById("selectedResource").textContent = entry.name;
-}
-
-    </script>
+   
 </body>
 </html>
