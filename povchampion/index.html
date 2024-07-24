@@ -1,0 +1,93 @@
+<html>
+<head>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/resources.js"></script>
+    <link rel="stylesheet" href="styles/displayStyles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body onload="onDisplayPageLoad()">
+    <h1><span id="selectedResource"></span></h1>
+
+    <table>
+        <tr>
+            <td style="vertical-align:top">
+                <b>Description:</b>
+                <br>
+                <span id="longDescription"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Website:</b>
+                <br>
+                <span id="website"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Phone:</b>
+                <br>
+                <span id="phone"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>Address:</b>
+                <br>
+                <span id="address"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="./index.html" class="button">Back to Resource List</a>
+            </td>
+        </tr>
+    </table>
+    <script>
+        function onDisplayPageLoad() {
+            // Retrieve parameters from the URL
+            var urlParams = new URLSearchParams(window.location.search);
+            var entryId = urlParams.get('entry');
+
+            // Find the entry with the given ID
+            var entry = entries.find(function (element) {
+                return element.id == entryId;
+            });
+
+            if (entry) {
+                // Set page details using the entry
+                setPageDetailsForDisplay(entry);
+            }
+        }
+
+        function setPageDetailsForDisplay(entry) {
+    // Set other page details using the entry
+    var longDescriptionElement = document.getElementById("longDescription");
+    var websiteElement = document.getElementById("website");
+    var addressElement = document.getElementById("address");
+    var phoneElement = document.getElementById("phone");
+
+    longDescriptionElement.textContent = entry.longDescription;
+    
+    // Create a hyperlink for the website
+    var websiteLink = document.createElement('a');
+    websiteLink.href = entry.website;
+    websiteLink.textContent = entry.website;
+    websiteLink.target = '_blank'; // Open in a new tab
+    websiteElement.innerHTML = ''; // Clear existing content
+    websiteElement.appendChild(websiteLink);
+
+    addressElement.textContent = entry.address;
+    phoneElement.appendChild(createPhoneLink(entry.phone));
+
+    document.title = entry.name + " - " + pageTitle;
+    document.getElementById("selectedResource").textContent = entry.name;
+}
+
+    </script>
+</body>
+</html>
